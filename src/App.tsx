@@ -109,7 +109,7 @@ const App = () => {
       setHasPlayed(true);
       setTimeout(() => {
         setHasPlayed(false);
-      }, 500);
+      }, 1000);
     }
   }
 
@@ -121,11 +121,11 @@ const App = () => {
         </C.LogoLink>
 
         <C.InfoArea>
-          <InfoItem label="Tempo" value={formatTimeElapsed(timeElapsed)}/>
-          <InfoItem label="Movimentos" value={moveCount.toString()}/>
+          <InfoItem label="Time Counter" value={formatTimeElapsed(timeElapsed)}/>
+          <InfoItem label="Movements" value={moveCount.toString()}/>
         </C.InfoArea>
 
-        <Button label="Reiniciar" icon={restartIcon} onClick={resetAndCreateGrid}/>
+        <Button label="Restart" icon={restartIcon} onClick={resetAndCreateGrid}/>
       </C.Info>
       <C.GridArea>
         <C.Grid>  
