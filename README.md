@@ -2,8 +2,8 @@
 This project has been done as an exercise in the B7WEB's react programming course.
 
 # In-game photos
-![alt text]([https://github.com/ericklaus16/Calculadora_de_IMC_React/blob/main/foto1.png?raw=true)<br>
-![alt text]([https://github.com/ericklaus16/Calculadora_de_IMC_React/blob/main/foto2.png?raw=true)
+![alt text](https://github.com/ericklaus16/Calculadora_de_IMC_React/blob/main/foto1.png?raw=true)<br>
+![alt text](https://github.com/ericklaus16/Calculadora_de_IMC_React/blob/main/foto2.png?raw=true)
 
 # Getting Started with Create React App
 
